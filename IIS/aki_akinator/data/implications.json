@@ -1,0 +1,92 @@
+[
+    {
+        "if": {
+            "handsize": false
+        },
+
+        "then": {
+            "independent": true
+        }
+    },
+
+    {
+        "if": {
+            "sound": true
+        },
+
+        "then": {
+            "light": false,
+            "fitness": false
+        }
+    },
+
+    {
+        "if": {
+            "light": true
+        },
+
+        "then": {
+            "health": true,
+            "sound": false,
+            "fitness": false
+        }
+    },
+
+    {
+        "if": {
+            "fitness": true
+        },
+
+        "then": {
+            "health": true,
+            "sound": false,
+            "light": false
+        }
+    },
+
+    {
+        "if": {
+            "fitness": true,
+            "independent": true
+        },
+
+        "then": {
+            "has_pair": true
+        }
+    },
+
+    {
+        "if": {
+            "independent": true
+        },
+
+        "then": {
+            "sound": false
+        }
+    },
+
+    {
+        "if": {
+            "fitness": true,
+            "coloured_display": "N/A"
+        },
+
+        "then": {
+            "handsize": false,
+            "has_pair": true,
+            "independent": true
+        }
+    },
+
+    {
+        "if": {
+            "fitness": true,
+            "pro": "N/A"
+        },
+
+        "then": {
+            "handsize": true,
+            "has_pair": false
+        }
+    }
+]
