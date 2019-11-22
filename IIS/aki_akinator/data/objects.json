@@ -1,6 +1,5 @@
-[
-    {
-        "name": "Mi Smart Band 4",
+{
+    "Mi Smart Band 4": {
         "picture": "mi_smart_band_4.jpg",
         "features": {
             "handsize": true,
@@ -10,8 +9,7 @@
         }
     },
 
-    {
-        "name": "Mi Band 3",
+    "Mi Band 3": {
         "picture": "mi_band_3.jpg",
         "features": {
             "handsize": true,
@@ -21,8 +19,7 @@
         }
     },
 
-    {
-        "name": "Mi LED Smart Bulb",
+    "Mi LED Smart Bulb": {
         "picture": "mi_led_smart_bulb.jpg",
         "features": {
             "health": true,
@@ -31,8 +28,7 @@
         }
     },
 
-    {
-        "name": "Mi Portable Mouse",
+    "Mi Portable Mouse": {
         "picture": "mi_mouse.jpg",
         "features": {
             "handsize": true,
@@ -41,8 +37,7 @@
         }
     },
 
-    {
-        "name": "Mi Electric Toothbrush",
+    "Mi Electric Toothbrush": {
         "picture": "mi_brush.jpg",
         "features": {
             "health": true,
@@ -51,8 +46,7 @@
         }
     },
 
-    {
-        "name": "Mi Electric Scooter",
+    "Mi Electric Scooter": {
         "picture": "mi_scooter.jpg",
         "features": {
             "health": true,
@@ -63,8 +57,7 @@
         }
     },
 
-    {
-        "name": "Mi Electric Scooter Pro",
+    "Mi Electric Scooter Pro": {
         "picture": "mi_scooter_pro.jpg",
         "features": {
             "health": true,
@@ -75,8 +68,7 @@
         }
     },
 
-    {
-        "name": "Mi Drone",
+    "Mi Drone": {
         "picture": "mi_drone.jpg",
         "features": {
             "independent": true,
@@ -84,8 +76,7 @@
         }
     },
 
-    {
-        "name": "Mi LED Desk Lamp",
+    "Mi LED Desk Lamp": {
         "picture": "mi_lamp.jpg",
         "features": {
             "health": true,
@@ -94,8 +85,7 @@
         }
     },
 
-    {
-        "name": "Mi Pocket Speaker 2",
+    "Mi Pocket Speaker 2": {
         "picture": "mi_speaker.png",
         "features": {
             "handsize": true,
@@ -104,8 +94,7 @@
         }
     },
 
-    {
-        "name": "Mi Headphones",
+    "Mi Headphones": {
         "picture": "mi_headphones.jpg",
         "features": {
             "handsize": true,
@@ -114,4 +103,4 @@
             "pc": true
         }
     }
-]
+}
