@@ -18,10 +18,18 @@
         $("#root").remove();
         let root = $('<div id="root"></div>');
 
+        if ('message' in state) {
+            root.append($('<p></p>').text(state.message));
+        }
         if (state.status === "start") {
             root.append($('<button id="start"></button>').text('New game'))
         } else if (state.status === "playing") {
-
+            root.append($('<p></p>').text(state.currentQuestion));
+            for (let i = 0; i < state.currentValues.length; ++i) {
+                root.append($(`<button id="${state.currentValues[i]}"></button>`).text(state.currentReprs[i]));
+            }
+        } else if (state.status === 'win') {
+            root.append($(`<img width=400 height=400 src="/get-picture?name=${state['result']}"></img>`))
         }
 
         $('body').append(root);
@@ -35,7 +43,7 @@
             data: JSON.stringify(state),
             contentType: "application/json; charset=utf-8",
             success: newState => {
-                state = newState;
+                state = JSON.parse(newState);
                 renderState();
             }
         });
