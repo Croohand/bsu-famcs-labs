@@ -1,92 +1,92 @@
 [
     {
         "if": {
-            "handsize": false
+            "handsize": "false"
         },
 
         "then": {
-            "independent": true
+            "independent": "true"
         }
     },
 
     {
         "if": {
-            "sound": true
+            "sound": "true"
         },
 
         "then": {
-            "light": false,
-            "fitness": false
+            "light": "false",
+            "fitness": "false"
         }
     },
 
     {
         "if": {
-            "light": true
+            "light": "true"
         },
 
         "then": {
-            "health": true,
-            "sound": false,
-            "fitness": false
+            "health": "true",
+            "sound": "false",
+            "fitness": "false"
         }
     },
 
     {
         "if": {
-            "fitness": true
+            "fitness": "true"
         },
 
         "then": {
-            "health": true,
-            "sound": false,
-            "light": false
+            "health": "true",
+            "sound": "false",
+            "light": "false"
         }
     },
 
     {
         "if": {
-            "fitness": true,
-            "independent": true
+            "fitness": "true",
+            "independent": "true"
         },
 
         "then": {
-            "has_pair": true
+            "has_pair": "true"
         }
     },
 
     {
         "if": {
-            "independent": true
+            "independent": "true"
         },
 
         "then": {
-            "sound": false
+            "sound": "false"
         }
     },
 
     {
         "if": {
-            "fitness": true,
+            "fitness": "true",
             "coloured_display": "N/A"
         },
 
         "then": {
-            "handsize": false,
-            "has_pair": true,
-            "independent": true
+            "handsize": "false",
+            "has_pair": "true",
+            "independent": "true"
         }
     },
 
     {
         "if": {
-            "fitness": true,
+            "fitness": "true",
             "pro": "N/A"
         },
 
         "then": {
-            "handsize": true,
-            "has_pair": false
+            "handsize": "true",
+            "has_pair": "false"
         }
     }
 ]

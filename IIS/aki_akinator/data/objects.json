@@ -2,105 +2,105 @@
     "Mi Smart Band 4": {
         "picture": "mi_smart_band_4.jpg",
         "features": {
-            "handsize": true,
-            "fitness": true,
-            "health": true,
-            "coloured_display": true
+            "handsize": "true",
+            "fitness": "true",
+            "health": "true",
+            "coloured_display": "true"
         }
     },
 
     "Mi Band 3": {
         "picture": "mi_band_3.jpg",
         "features": {
-            "handsize": true,
-            "health": true,
-            "fitness": true,
-            "coloured_display": false
+            "handsize": "true",
+            "health": "true",
+            "fitness": "true",
+            "coloured_display": "false"
         }
     },
 
     "Mi LED Smart Bulb": {
         "picture": "mi_led_smart_bulb.jpg",
         "features": {
-            "health": true,
-            "handsize": true,
-            "light": true
+            "health": "true",
+            "handsize": "true",
+            "light": "true"
         }
     },
 
     "Mi Portable Mouse": {
         "picture": "mi_mouse.jpg",
         "features": {
-            "handsize": true,
-            "has_pair": true,
-            "pc": true
+            "handsize": "true",
+            "has_pair": "true",
+            "pc": "true"
         }
     },
 
     "Mi Electric Toothbrush": {
         "picture": "mi_brush.jpg",
         "features": {
-            "health": true,
-            "handsize": true,
-            "independent": true
+            "health": "true",
+            "handsize": "true",
+            "independent": "true"
         }
     },
 
     "Mi Electric Scooter": {
         "picture": "mi_scooter.jpg",
         "features": {
-            "health": true,
-            "fitness": true,
-            "pro": false,
-            "independent": true,
-            "has_pair": true
+            "health": "true",
+            "fitness": "true",
+            "pro": "false",
+            "independent": "true",
+            "has_pair": "true"
         }
     },
 
     "Mi Electric Scooter Pro": {
         "picture": "mi_scooter_pro.jpg",
         "features": {
-            "health": true,
-            "fitness": true,
-            "pro": true,
-            "independent": true,
-            "has_pair": true
+            "health": "true",
+            "fitness": "true",
+            "pro": "true",
+            "independent": "true",
+            "has_pair": "true"
         }
     },
 
     "Mi Drone": {
         "picture": "mi_drone.jpg",
         "features": {
-            "independent": true,
-            "has_pair": true
+            "independent": "true",
+            "has_pair": "true"
         }
     },
 
     "Mi LED Desk Lamp": {
         "picture": "mi_lamp.jpg",
         "features": {
-            "health": true,
-            "independent": true,
-            "light": true
+            "health": "true",
+            "independent": "true",
+            "light": "true"
         }
     },
 
     "Mi Pocket Speaker 2": {
         "picture": "mi_speaker.png",
         "features": {
-            "handsize": true,
-            "sound": true,
-            "pc": true
+            "handsize": "true",
+            "sound": "true",
+            "pc": "true"
         }
     },
 
     "Mi Headphones": {
         "picture": "mi_headphones.jpg",
         "features": {
-            "handsize": true,
-            "sound": true,
-            "has_pair": true,
-            "pc": true
+            "handsize": "true",
+            "sound": "true",
+            "has_pair": "true",
+            "pc": "true"
         }
     }
 }

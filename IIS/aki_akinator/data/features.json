@@ -1,60 +1,60 @@
 {
     "handsize": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Помещается ли устройство в карман?"
     },
 
     "fitness": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Предназначено ли устройство для фитнеса?"
     },
 
     "coloured_display": {
-        "values": [true, false, "N/A"],
+        "values": ["true", "false", "N/A"],
         "values_repr": ["Да", "Нет", "Дисплей отсутствует"],
         "question": "У этого устройства цветной дисплей?"
     },
 
     "light": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Это устройство нужно для освещения?"
     },
 
     "has_pair": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "У устройства есть какие-нибудь парные части? (например, колеса)"
     },
 
     "independent": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Это самостоятельное устройство? (нужно ли его к чему-то подключать для работы)"
     },
 
     "pro": {
-        "values": [true, false, "N/A"],
+        "values": ["true", "false", "N/A"],
         "values_repr": ["Да", "Нет", "Не применимо"],
         "question": "Это 'про' версия устройства?"
     },
 
     "sound": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Это устройство предназначено для воспроизведения звука?"
     },
 
     "pc": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Является ли устройство аксессуаром для персонального компьютера?"
     },
 
     "health": {
-        "values": [true, false],
+        "values": ["true", "false"],
         "values_repr": ["Да", "Нет"],
         "question": "Несет ли устройство пользу для здоровья?"
     }
