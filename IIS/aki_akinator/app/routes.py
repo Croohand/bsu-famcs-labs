@@ -45,12 +45,6 @@ def get_next_state():
     state['status'] = 'playing'
     enrich_features(state)
     objects = get_suitable_objects(state)
-    for feature in app.features:
-        if feature not in state['features']:
-            default_value = app.features[feature]['values'][-1]
-            values = set(app.objects[obj]['features'].get(feature, default_value) for obj in objects)
-            if len(values) == 1:
-                state['features'][feature] = values.pop()
     if not objects:
         state['failed'] = True
     else:
